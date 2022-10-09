@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 70%;
+}
+
+.boite {
+    max-width: min-content;
+}
+
+.News {
+    justify-content: center;
+}
+
+.GoogleHome1 {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    font-family: 'Gemunu Libre', sans-serif;
+    scale: 50px;
+}
+
+.Design {
+    height: 70vh;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+    padding: 45px;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.Voix {
+    height: 70vh;
+    display: flex;
+
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.Combiné {
+    height: 70vh;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.Recherche {
+    height: 70vh;
+    display: flex;
+
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.Boîte {
+    height: 70vh;
+    display: flex;
+
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: gray;
+    border-radius: 10px;
+}
